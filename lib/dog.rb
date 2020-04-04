@@ -8,8 +8,11 @@ class Dog
   def name 
     this_dogs_name
   end
+  
+  
 end
 
 paloma = Dog.new 
 paloma.name = "Paloma"
 
+puts paloma.name
